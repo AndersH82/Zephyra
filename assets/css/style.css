@@ -159,9 +159,19 @@ h2.welcome2 {
 }
 
 .logo {
+    color: white;
     font-size: 24px;
     font-weight: bold;
     margin-right: 20px;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: #FDE9CE;
 }
 
 .nav-links {
@@ -176,8 +186,7 @@ h2.welcome2 {
 }
 
 .navbar .nav-links a:hover {
-    background-color: #FDE9CE;
-    border-radius: 20px;
+    color: #FDE9CE;
 }
 
 /* footer */
@@ -196,6 +205,16 @@ h2.welcome2 {
     box-shadow: 0 -4px 8px rgba(56, 52, 52, 2.5);
 }
 
+.fa-brands {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    color: white;
+}
+
+.fa-brands:hover {
+    color: #FDE9CE;
+}
 /* ask */
 
 
