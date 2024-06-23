@@ -1,15 +1,15 @@
 const cards = [
-    { name: "The Fool", meaning: "New beginnings, adventure, and potential.", description: "The Fool is a tarot card that symbolizes a new beginning, an adventure and unknown potential. It also represents a person who is willing to take risks and trust their intuition. Today it may mean that you are facing new opportunities and that it is time to be brave and open to change. Follow your heart and dare to take chances - you may discover unexpected paths forward!" },
-    { name: "The Magus", meaning: "Manifestation, desire, and influence.", description: "Manifests desires and influences reality." },
-    { name: "The Priestess", meaning: "Intuition and subconscious mysteries.", description: "Represents intuition and the mysteries of the subconscious." },
-    { name: "The Empress", meaning: "Love, abundance, and nurturing.", description: "Symbolizes love, abundance, and nurturing." },
-    { name: "The Emperor", meaning: "Authority, structure, and leadership.", description: "Represents authority, structure, and leadership." },
-    { name: "The High Priest", meaning: "Wisdom and traditional teachings.", description: "Offers wisdom and teachings from tradition." },
-    { name: "The Lovers", meaning: "Love, choice, and partnership.", description: "Symbolizes love, choice, and partnership." },
-    { name: "The Chariot", meaning: "Victory, determination, and control.", description: "Represents victory, determination, and control." },
-    { name: "Justice", meaning: "Fairness, balance, and decision-making.", description: "Stands for fairness, balance, and decision-making." },
-    { name: "The Hermit", meaning: "Introspection, wisdom, and solitude.", description: "Symbolizes introspection, wisdom, and solitude." },
-    { name: "Wheel of Fortune", meaning: "Change, destiny, and cycles.", description: "Represents change, destiny, and cycles." },
+    { name: "The Fool", meaning: "New beginnings, adventure, and potential.", description: "Symbolizes new beginnings, adventure, and potential. It represents the start of a journey, whether positive or negative, and is associated with the energy of Uranus, embodying intellectual freedom and the dynamism of the air element. The imagery of The Fool includes elements like yellow boots (representing self-assurance and ambition), a white rose (symbolizing purity and loyalty), and mountains (indicating life's challenges). When appearing upright, it indicates a time for new beginnings and openness to opportunities, encouraging adventure and risk-taking. However, if reversed, it suggests fear of taking risks, missed opportunities due to hesitation, or naivety leading to potential failures. Overall, The Fool reminds us of the importance of embracing new adventures with courage and optimism, while also cautioning against reckless decisions and the need for balance between risk and caution." },
+    { name: "The Magus", meaning: "Manifestation, desire, and influence.", description: "Signifies that you possess the power to manifest your desires and influence your surroundings. It encourages you to tap into your creative potential and take decisive action to bring your dreams into reality. This card is a reminder of your inherent ability to shape your destiny through focused intentions, visualization, and taking inspired action. It suggests aligning your thoughts, emotions, and actions to manifest your desires effectively. Embrace your inner strength and confidence to overcome obstacles and navigate life's challenges with grace and resilience. The Magus card also emphasizes the importance of aligning your personal will with higher guidance, suggesting that by tuning into the rhythm of the universe, you can amplify your ability to create positive change." },
+    { name: "The Priestess", meaning: "Intuition and subconscious mysteries.", description: "Also known as the High Priestess, symbolizes intuition, inner wisdom, and the mysteries of the subconscious mind. Today, this card is a reminder to trust your inner voice and intuition over logical reasoning. It encourages you to delve into the depths of your subconscious for guidance and to recognize the importance of balancing the conscious and unconscious aspects of yourself. The High Priestess is a guardian of esoteric knowledge, guiding you towards a deeper understanding of life's mysteries and the importance of spiritual growth. Embrace the unknown, trust in the journey, and cultivate a connection with your inner wisdom to navigate life's complexities with courage and faith." },
+    { name: "The Empress", meaning: "Love, abundance, and nurturing.", description: "Symbolizes love, abundance, and nurturing. Today, this card encourages you to embrace these qualities in your life. It suggests focusing on creating and nurturing relationships, both romantic and platonic, by offering love, support, and care. Embrace the abundance in your life, whether it's financial, creative, or emotional, and recognize the value of what you have. Connect with nature to find balance and inspiration. Tap into your creative potential and express yourself freely. Remember to care for yourself and others, fostering a supportive environment that nurtures growth and happiness." },
+    { name: "The Emperor", meaning: "Authority, structure, and leadership.", description: "Symbolizes authority, structure, and leadership in various aspects of your life. Today, this card indicates that you are in a position of power or responsibility, where your actions and decisions carry significant weight. It encourages you to approach situations with a structured plan, applying logic and discipline to achieve your goals. Whether in love, career, or personal development, the Emperor advises you to lead with confidence, ambition, and a clear vision for the future. Embrace the qualities of stability, strength, and leadership to navigate through challenges and opportunities with determination and foresight." },
+    { name: "The High Priest", meaning: "Wisdom and traditional teachings.", description: "Signifies wisdom and traditional teachings for you today. This symbolism draws parallels between the role of the High Priest in ancient traditions and the concept of seeking wisdom and guidance from established knowledge and practices. It encourages you to look towards traditional teachings and wisdom as a source of insight and direction in your life. This might involve studying ancient texts, consulting with elders or experts in your field, or exploring philosophies and teachings that have stood the test of time. Embrace the wisdom of the past to inform your present actions and future decisions." },
+    { name: "The Lovers", meaning: "Love, choice, and partnership.", description: "Symbolizes a pivotal moment regarding love, choice, and partnership. It encourages you to explore deep connections and the essence of true love, emphasizing the importance of making conscious choices that align with your values and aspirations. This card suggests that you are at a crossroads where you must decide between different paths, each offering its own set of experiences and outcomes. It's a call to stay true to yourself, to embrace your personal beliefs and values, and to seek a harmonious balance in your relationships. Whether you're navigating a new romance, evaluating existing partnerships, or considering personal growth, The Lovers card advises you to listen to your intuition, prioritize self-love and self-acceptance, and make decisions that will lead to fulfillment and joy. Remember, this card extends beyond romantic love to encompass meaningful friendships and the relationship with yourself, reminding you of the value of soul connections and the transformative power of love." },
+    { name: "The Chariot", meaning: "Victory, determination, and control.", description: "Signifies victory, determination, and control today. It encourages you to harness your inner strength and willpower to overcome challenges and achieve your goals. This card is a call to action, urging you to take control of your circumstances and steer your life in the direction you desire, despite facing opposition or conflicting forces. It's a reminder to maintain focus, confidence, and determination, even when faced with obstacles or distractions. Whether in love, career, or personal endeavors, The Chariot suggests that with disciplined action and unwavering commitment, you can achieve success and fulfillment." },
+    { name: "Justice", meaning: "Fairness, balance, and decision-making.", description: "Signifies the importance of fairness, balance, and making decisions with integrity. It reminds you that every action has consequences and urges you to act with honesty and fairness in all aspects of your life. This card suggests that it's crucial to weigh your options carefully and consider the potential outcomes of your choices. It's a call to seek balance and fairness in your personal and professional life, emphasizing the need for transparency and accountability. Whether you're navigating a challenging situation or making a significant decision, the Justice card advises you to approach it with a clear mind, considering the implications of your actions on yourself and others." },
+    { name: "The Hermit", meaning: "Introspection, wisdom, and solitude.", description: "Signifies a call for introspection, wisdom, and solitude. It encourages you to step back, reflect on your life, and delve into your inner world to gain a deeper understanding of yourself. This period is about seeking spiritual enlightenment and inner guidance, which can lead to personal growth and self-discovery. The Hermit's solitary stance atop a mountain symbolizes achievement, growth, and the pursuit of higher truths. Embrace this time for introspection, trusting in your inner wisdom, and allowing it to illuminate your path forward." },
+    { name: "Wheel of Fortune", meaning: "Change, destiny, and cycles.", description: "Signifies change, destiny, and the cycles inherent in life. It encourages embracing the ups and downs as part of the natural order, emphasizing the importance of adaptability and resilience. This card reminds you that life is in constant motion, and while fortunes may rise and fall, it's crucial to stay balanced and centered amidst these fluctuations. It symbolizes the interconnectedness of our actions and their impact on our future, suggesting that our current decisions and behaviors influence our destiny. The Wheel of Fortune also hints at the concept of karma, indicating that what goes around comes around. Ultimately, it's a call to action to live authentically, knowing that our choices today shape our tomorrow." },
     { name: "Strength", meaning: "Courage, resilience, and overcoming obstacles.", description: "Represents courage, resilience, and overcoming obstacles." },
     { name: "The Hanged Man", meaning: "Sacrifice, transformation, and perspective shift.", description: "Symbolizes sacrifice, transformation, and perspective shift." },
     { name: "Death", meaning: "Endings, rebirth, and transformation.", description: "Represents endings, rebirth, and transformation." },
@@ -97,6 +97,7 @@ function drawCard() {
     document.querySelector('.card-description').textContent = selectedCard.description;
 }
 
+
 document.addEventListener('DOMContentLoaded', () => {
     const deck = document.querySelector('.deck');
     const card = document.createElement('div');
@@ -135,14 +136,14 @@ document.addEventListener('DOMContentLoaded', () => {
     card.addEventListener('click', () => {
         const lastDrawDate = localStorage.getItem('lastDrawDate');
         const today = new Date().toISOString().split('T')[0];
-
+    
         if (lastDrawDate === today) {
             alert('Only the first card is valid for the day. Welcome back tomorrow.');
         } else {
             drawCard();
             localStorage.setItem('lastDrawDate', today);
         }
-
+    
         card.classList.toggle('flipped');
         if (card.classList.contains('flipped')) {
             document.querySelector('.card-meaning').textContent = randomCard.meaning;
@@ -151,5 +152,38 @@ document.addEventListener('DOMContentLoaded', () => {
             document.querySelector('.card-meaning').textContent = '';
             document.querySelector('.card-description').textContent = '';
         }
+        
     });
 });
+
+document.getElementById('questionForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const username = document.getElementById('username').value;
+    const email = document.getElementById('email').value;
+    const question = document.getElementById('question').value;
+
+    console.log('Form submitted:', { username, email, question });
+
+    alert('Thank you for your question!');
+});
+
+$(document).ready(function() {
+    var down = false;
+    var scrollLeft = 0;
+    var x = 0;
+  
+    $('.right-box').mousedown(function(e) {
+      down = true;
+      scrollLeft = $(this).scrollLeft();
+      x = e.clientX;
+    }).mouseup(function() {
+      down = false;
+    }).mousemove(function(e) {
+      if (down) {
+        $(this).scrollLeft(scrollLeft + x - e.clientX);
+      }
+    }).mouseleave(function() {
+      down = false;
+    });
+  });
