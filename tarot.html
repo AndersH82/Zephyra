@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zephyra</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div class="navbar">
@@ -15,8 +15,20 @@
         </div>
     </div>
     <h1 class="tarot-card">Tarot for the day</h1>
-    <div class="deck"></div>
-    <script src="script.js"></script>
+    <div class="container">
+        <div class="info-box left-box">
+            <h2>Meaning of the card</h2>
+            <p class="card-meaning"></p>
+        </div>
+        
+        <div class="deck"></div>
+
+        <div class="info-box right-box">
+            <h2>The meaning of the day</h2>
+            <p class="card-description"></p>
+        </div>
+    </div>
+    <script src="assets/javascript/script.js"></script>
     <footer class="footer">
         <p>&copy; 2024 Zephyra. All rights reserved.</p>
     </footer>
