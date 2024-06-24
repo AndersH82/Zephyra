@@ -8,12 +8,19 @@
 </head>
 <body>
     <div class="navbar">
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+        </div>
         <div class="logo"><a href="index.html">Zephyra</a></div>
-        <div class="nav-links">
+        <div class="nav-links" id="nav-links">
             <a href="index.html">Home</a>
             <a href="tarot.html">Tarot</a>
             <a href="ask.html">Ask</a>
             <a href="meanings.html">Meanings</a>
+        </div>
+        <div class="language-switcher">
+            <img src="assets/images/united-kingdom.png" alt="English" onclick="setLanguage('en')" style="cursor: pointer;">
+            <img src="assets/images/sweden.png" alt="Svenska" onclick="setLanguage('swe')" style="cursor: pointer;">
         </div>
     </div>
     <div class="error">
