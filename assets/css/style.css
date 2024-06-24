@@ -67,6 +67,10 @@ h2.welcome2 {
     justify-content: center;
 }
 
+.card .back .card-description {
+    display: none;
+}
+
 .card .front img, .card .back img {
     width: 100%;
     height: 100%;
@@ -187,6 +191,18 @@ h2.welcome2 {
 
 .navbar .nav-links a:hover {
     color: #FDE9CE;
+}
+
+.language-switcher {
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.language-switcher img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 10px;
 }
 
 /* footer */
