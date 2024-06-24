@@ -189,7 +189,7 @@ $(document).ready(function() {
   });
 
 
-function setLanguage(language) {
+  function setLanguage(language) {
     fetch(`assets/javascript/${language}.json`)
         .then(response => response.json())
         .then(data => {
@@ -203,3 +203,5 @@ function setLanguage(language) {
 document.addEventListener('DOMContentLoaded', () => {
     setLanguage('en'); // Default to English
 });
+
+
