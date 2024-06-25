@@ -478,8 +478,8 @@ form input[type="submit"]:hover {
     }
 
     .left-box, .right-box {
-        width: 90%;
-        max-width: none;
+        width: 100%;
+        max-width: 300px;
         margin: 10px 0;
     }
 
