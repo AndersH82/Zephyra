@@ -31,6 +31,17 @@ h2.welcome2 {
 .deck {
     perspective: 1000px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1.0);
+    border-radius: 20px;
+}
+
+.deck .card-description{
+    display: none;
+    border-radius: 20px;
+}
+
+.deck .card-meaning {
+    display: none;
+    border-radius: 20px;
 }
 
 .card {
@@ -42,10 +53,12 @@ h2.welcome2 {
     transition: transform 0.6s ease-in-out;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1.0);
+    border-radius: 20px;
 }
 
 .card.flipped {
     transform: rotateY(180deg);
+    border-radius: 20px;
 }
 
 .card .front, .card .back {
@@ -57,6 +70,7 @@ h2.welcome2 {
     align-items: center;
     justify-content: center;
     font-size: 24px;
+    border-radius: 20px;
 }
 
 .card .back {
@@ -65,10 +79,12 @@ h2.welcome2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
 }
 
 .card .back .card-description {
     display: none;
+    border-radius: 20px;
 }
 
 .card .front img, .card .back img {
@@ -76,6 +92,7 @@ h2.welcome2 {
     height: 100%;
     object-fit: cover;
     background-color: #FDE9CE;
+    border-radius: 20px;
 }
 
 .tarot-card {
@@ -84,6 +101,7 @@ h2.welcome2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
 }
 
 
@@ -98,6 +116,7 @@ h2.welcome2 {
     justify-content: center;
     align-items: center;
     margin: 50px 0;
+    
 }
 
 .left-box {
@@ -135,6 +154,7 @@ h2.welcome2 {
 }
 
 .deck {
+    margin-left: 20px;
     width: 200px;
     height: 300px;
     background-color: #eee;
@@ -143,6 +163,7 @@ h2.welcome2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
 }
 
 
@@ -151,7 +172,7 @@ h2.welcome2 {
 .navbar {
     display: flex;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px 20px;
     background-color: rgb(56, 52, 52);
     color: white;
     box-shadow: 0 4px 8px rgba(56, 52, 52, 2.5);
@@ -396,14 +417,11 @@ form input[type="submit"]:hover {
         margin: 5px 0;
     }
 
-    .navbar .language-switcher {
-        margin-top: 10px;
-    }
-
     .welcome, .welcome2 {
         text-align: center;
         padding: 0 10px;
     }
+
 }
 
 
@@ -422,7 +440,7 @@ form input[type="submit"]:hover {
     }
 
     .navbar .nav-links {
-        display: flex;
+        display: none;
         align-items: center;
         flex-direction: column;
         width: 30%;
@@ -431,6 +449,7 @@ form input[type="submit"]:hover {
         left: 0;
         background-color: rgb(56, 52, 52);
         padding: 10px 0;
+        border-radius: 0 0 20px;
     }
 
     .navbar .nav-links a {
@@ -438,7 +457,7 @@ form input[type="submit"]:hover {
     }
 
     .navbar .language-switcher {
-        margin-top: 10px;
+        margin: auto;
     }
 
     .hamburger {
@@ -465,15 +484,13 @@ form input[type="submit"]:hover {
     }
 
     .deck {
+        background-color: white;
+        border: none;
         width: auto;
         height: 10;
         margin: 20px 0;
         margin-bottom: 50px;
-    }
-
-    .language-switcher {
-        margin-right: 0;
-        margin-top: 10px;
+        box-shadow: none;
     }
 
 }
